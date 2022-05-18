@@ -11,8 +11,7 @@
             schema: 
               type: object
               properties:
-                Gender: 
-                  type: string
+                Gender: {type : 'string' }
               #additionalProperties: false
               #required: [id]
             examples: # <string, ExampleObject>
@@ -34,8 +33,7 @@
               schema: 
                 type: object
                 properties:
-                  application_id: 
-                    type: string
+                  application_id: { type : 'string' }
                 additionalProperties: false
                 required: [application_id]
               examples: # <string, ExampleObject>

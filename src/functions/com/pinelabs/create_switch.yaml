@@ -2,7 +2,7 @@ summary: Multiplexing create loan for hdfc api calls
 tasks:
   - id: switch
     fn: com.gs.switch
-    value: ${inputs.body.condition}
+    value: <% inputs.body.condition %>
     cases:
       FIRST:
         id: 1st
